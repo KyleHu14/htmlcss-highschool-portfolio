@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="hover.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <nav>
+    <div class="title">
+      <h4>Welcome</h4>
+    </div>
+    <ul class = "nav-links">
+      <li>
+        <a href="index.html"><span class="fill-right">Home</span></a>
+      </li>
+
+      <li>
+        <a href="about.html"><span class="fill-down">About</span></a>
+      </li>
+
+      <li>
+        <a href="education.html"><span class="fill-up">Education</span></a>
+      </li>
+
+      <li>
+        <a href="exp.html"><span class="fill-down">Experience</span></a>
+      </li>
+
+      <li>
+        <a href="skills.html"><span class="fill-up">Skills</span></a>
+      </li>
+
+      <li>
+        <a href="int.html"><span class="fill-left">Interests</span></a>
+      </li>
+    </ul>
+    <div class = "smallNav">
+      <div class = "line1"></div>
+      <div class = "line2"></div>
+      <div class = "line3"></div>
+    </div>
+  </nav>
+
+  <!-- Tutorial Link : https://www.youtube.com/watch?v=WZOZUCHo1OM -->
+  <div class="main-content">
+    <div class="portfolio">
+      <button onclick = "goAbout()" class="unselectable portfolio-item one"> About </button>
+      <button onclick = "goEd()" class="unselectable portfolio-item two"> Education </button>
+      <button onclick = "goExp()" class="unselectable portfolio-item three"> Experience </button>
+      <button onclick = "goSkills()" class="unselectable portfolio-item four"> Skills </button>
+      <button onclick = "goInt()" class="unselectable portfolio-item five"> Interests </button>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
